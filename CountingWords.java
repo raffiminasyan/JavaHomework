@@ -17,6 +17,7 @@ public class CountingWords {
 //        }
 //        return count;
 
+
         return string.split(" ").length;
     }
 }
