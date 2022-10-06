@@ -15,6 +15,8 @@ public class NumberOfTwos {
         for (int i = 0; i < str.length(); i++) {
             if (str.charAt(i) == '2') {
                 count++;
+
+
             }
         }
         return count;
