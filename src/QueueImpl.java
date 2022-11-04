@@ -1,5 +1,4 @@
 public class QueueImpl<T> implements Queue<T> {
-//    DynamicIntegerArray a =  new DynamicIntegerArray(6);
     int front = -1;
     int rear = -1;
     T[] arr;
@@ -29,7 +28,7 @@ public class QueueImpl<T> implements Queue<T> {
             arr[rear] = e;
             size++;
         } else if (isFull()) {
- throw new IllegalStateException(" It is full ");
+            throw new IllegalStateException(" It is full ");
         } else {
             rear++;
             arr[rear] = e;

@@ -52,7 +52,6 @@ public class DynamicIntegerArray {
         return array[indexOfElement];
     }
 
-    public int getEl
 
 //    public static void remove(int value) {
 //        int numberOfValues = 0;
